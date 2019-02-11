@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/swiper.css">
+    <link rel="stylesheet" href="css/canvi.css">
+    <link rel="stylesheet" href="css/enshrine.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="js/canvi.js"></script>
+    <script src="js/common.js"></script>
+    <script src="js/swiper.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/config.js"></script>
+    <style>
+        .tab-pane > ul {
+            list-style: none;
+        }
+
+        .nav-tabs > li {
+            width: 33%;
+            text-align: center;
+            font-size: .3rem;
+        }
+
+        .nav-tabs > li.active > a > span, .nav-tabs > li.active > a > span:hover, .nav-tabs > li.active > a > span:focus {
+            color: #f35d44;
+        }
+
+        .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+            border: none;
+            border-bottom: .03rem solid #f35d44;
+            background: transparent;
+        }
+
+        .nav-tabs > li > a {
+            border: none;
+            color: #555555;
+        }
+
+        .nav-tabs {
+            border: none;
+        }
+    </style>
+</head>
+<body>
+<div class="canvi-navbar js-canvi-navbar-left">
+    <div class="sideBar">
+        <div class="sideMenu">
+            <div class="listIcon" onClick="canviLeft.close();"><img src="img/listIcon.png" alt=""></div>
+            <div class="toggleBtn">
+                <div class="twoIcon">
+                    <div class="loginIcon">
+                        <ul>
+                            <li><a href="login.html"><i class="left"></i><button>立即登录</button></a></li>
+                            <li><a href="signUp.html"><i class="right"></i><button>免费注册</button></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="menuList">
+                <ul>
+                    <li><a href="recommend.html"><i></i><span>站长推荐</span></a></li>
+                    <li><a href="Domestic.html"><i></i><span>国产精品</span></a></li>
+                    <li><a href="japanOnline.html"><i></i><span>日韩在线</span></a></li>
+                    <li><a href="Europe.html"><i></i><span>欧美激情</span></a></li>
+                    <li><a href="Scarcity.html"><i></i><span>绝版资源</span></a></li>
+                    <li><a href="photoDetail.html"><i></i><span>性感套图</span></a></li>
+                    <li><a href="novelList.html"><i></i><span>情色文学</span></a></li>
+                    <li><a href="vip.html"><i></i><span>VIP专区</span></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="canvi-content js-canvi-content">
+    <header>
+        <div class="backIcon js-canvi-open-button-left"><img src="img/listIcon.png" alt=""></div>
+        <div class="search"><a href="search.html" class="search"></a></div>
+        <div class=""><span>活动中心</span></div>
+    </header>
+    <div class="topSpace"></div>
+    <div class="container">
+        <div class="photoTab">
+            <ul id="myTab" class="nav nav-tabs">
+                <li class="active">
+                    <a href="#all" data-toggle="tab">
+                        <span>金币任务</span>
+                    </a>
+                </li>
+                <li><a href="#female" data-toggle="tab"><span>优惠活动</span></a></li>
+                <li><a href="#aboutGold" data-toggle="tab"><span>关于金币</span></a></li>
+            </ul>
+            <div id="myTabContent" class="tab-content">
+                <div class="tab-pane fade in active activityList" id="all">
+                    <ul>
+                        <li>
+                            <div class="vipPic">
+                                <a href="activityContent.html">
+                                    <i class="pri">
+                                        <span>分享好友，欢乐加倍，激情满满</span>
+                                    </i>
+                                </a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="vipPic">
+                                <a href="activityContent.html">
+                                    <i class="pri">
+                                        <span>分享好友，欢乐加倍，激情满满</span>
+                                    </i>
+                                </a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="tab-pane fade activityList" id="female">
+                    <ul>
+                        <li>
+                            <div class="vipPic">
+                                <a href="activityContent.html">
+                                    <i class="pri">
+                                        <span>分享好友，欢乐加倍，激情满满</span>
+                                    </i>
+                                </a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="vipPic">
+                                <a href="activityContent.html">
+                                    <i class="pri">
+                                        <span>分享好友，欢乐加倍，激情满满</span>
+                                    </i>
+                                </a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="tab-pane fade activityList" id="aboutGold">
+                    <div class="qgbTitle">
+                        <span>关于轻搞币</span>
+                    </div>
+                    <div class="textContent">
+                        <p>获取途径</p>
+                        <h2>1.金币可通过网站活动获取，根据活动不同可获取不同数额的金币。</h2>
+                        <h2>2.金币可通过合作游戏网站游戏记录兑换。</h2>
+                    </div>
+                    <div class="textContent">
+                        <p>金币用途</p>
+                        <h2>1.消费金币可在本网站观看VIP级别的精品、稀有资源。</h2>
+                        <h2>2.金币可兑换合作游戏网站筹码，赢取现金。</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <ul>
+            <li class="index">
+                <a href="index.html">
+                    <i></i>
+                    <span>首页</span>
+                </a>
+            </li>
+            <li class="novel">
+                <a href="novelList.html">
+                    <i></i>
+                    <span>色图肉文</span>
+                </a>
+            </li>
+            <li class="activity active">
+                <a href="activityCenter.html">
+                    <i></i>
+                    <span>活动中心</span>
+                </a>
+            </li>
+            <li class="personal">
+                <a href="personalCenter.html">
+                    <i></i>
+                    <span>我的</span>
+                </a>
+            </li>
+        </ul>
+    </footer>
+</div>
+<script>
+    $(function () {
+        $$.Swiper();
+        $$.canviSide();
+    })
+</script>
+</body>
+</html>

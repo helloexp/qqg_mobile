@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/swiper.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/enshrine.css">
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="js/common.js"></script>
+    <script src="js/swiper.min.js"></script>
+    <script src="js/config.js"></script>
+</head>
+<body>
+<header>
+    <div class="return"><img src="img/back.png" alt=""></div>
+    登录
+</header>
+<div class="topSpace"></div>
+<div class="container">
+    <div class="qqgBanner">
+        <img src="img/qqgBanner.png" alt="">
+    </div>
+    <div class="loginContent">
+        <form action="">
+            <input type="text" placeholder="用户名">
+            <input type="text" placeholder="密码">
+            <input type="text" placeholder="验证码">
+            <div class="yzm"><img src="img/yzm.png" alt=""></div>
+        </form>
+        <button>立即登陆</button>
+    </div>
+    <div class="signRe">
+        <button><a href="signUp.html">免费注册</a></button>
+        <button><a href="findPassword.html">忘记密码</a></button>
+    </div>
+</div>
+<footer>
+    <ul>
+        <li class="index">
+            <a href="index.html">
+                <i></i>
+                <span>首页</span>
+            </a>
+        </li>
+        <li class="novel">
+            <a href="novelList.html">
+                <i></i>
+                <span>色图肉文</span>
+            </a>
+        </li>
+        <li class="activity">
+            <a href="activityCenter.html">
+                <i></i>
+                <span>活动中心</span>
+            </a>
+        </li>
+        <li class="personal">
+            <a href="personalCenter.html">
+                <i></i>
+                <span>我的</span>
+            </a>
+        </li>
+    </ul>
+</footer>
+<div class="sideBar">
+    <div class="sideMenu">
+       <div class="listIcon" style="float:right;margin-left:3.23rem;margin-top: -.8rem;position:absolute;"><img src="img/listIcon.png" alt=""></div>
+        <div class="toggleBtn">
+            <div class="twoIcon">
+                <div class="loginIcon">
+                    <ul>
+                        <li><a href="login.html"><i class="left"></i><button>立即登录</button></a></li>
+                        <li><a href="signUp.html"><i class="right"></i><button>免费注册</button></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="menuList">
+            <ul>
+                <li><a href="recommend.html"><i></i><span>站长推荐</span></a></li>
+                <li><a href="Domestic.html"><i></i><span>国产精品</span></a></li>
+                <li><a href="japanOnline.html"><i></i><span>日韩在线</span></a></li>
+                <li><a href="Europe.html"><i></i><span>欧美激情</span></a></li>
+                <li><a href="Scarcity.html"><i></i><span>绝版资源</span></a></li>
+                <li><a href="photoDetail.html"><i></i><span>性感套图</span></a></li>
+                <li><a href="novelList.html"><i></i><span>情色文学</span></a></li>
+                <li><a href="vip.html"><i></i><span>VIP专区</span></a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<script>
+    $(function () {
+        // $(".sideBar").load('sideBar.html');
+        $$.Swiper();
+        $$.addIndex();
+        $$.sideBar();
+        // $$.listIcon();
+        $$.return();
+    })
+</script>
+</body>
+</html>
